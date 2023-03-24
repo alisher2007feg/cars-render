@@ -1,0 +1,27 @@
+body{
+    background-color: darkcyan;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cards{
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   grid-gap: 20px;
+}
+.img-1{
+    width: 200px;
+}
+.sub_title{
+    color: blue;
+    text-align: center;
+}
+.col-lg-4{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
